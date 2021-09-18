@@ -16,7 +16,7 @@ function Chutar() {
       "Você deve digitar um número entre 0 e 10 inteiro!";
     console.log("Você deve digitar um número entre 0 e 10 inteiro!");
   } else {
-    document.getElementById("resultado").innerHTML = "Você errou!";
+    document.getElementById("resultado").innerHTML = "Você errou! O número secreto é: " + numeroSecreto;
     console.log("errou");
   }
 
